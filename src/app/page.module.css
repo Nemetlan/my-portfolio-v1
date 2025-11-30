@@ -29,3 +29,10 @@
     text-decoration: underline;
     text-decoration-color: rgb(255, 255, 255);
 }
+
+@media (max-width:1800px) {
+    .Username {
+        scale: 0.8;
+    }
+    
+}

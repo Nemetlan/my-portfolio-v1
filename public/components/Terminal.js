@@ -66,7 +66,7 @@ export default function Terminal() {
             <span>whoami</span>
           </p>
           <div className={styles.output}>
-            <h1 className={styles.name}>Thilina Jyasekara</h1>
+            <h1 className={styles.name}>Thilina Jayasekara</h1>
             <p className={styles.title}>Student | Backend & Frontend Developer</p>
           </div>
         </div>
