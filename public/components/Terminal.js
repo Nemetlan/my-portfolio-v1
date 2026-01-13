@@ -3,6 +3,7 @@
 import GitHubIcon from '../icons/GitHubIcon';
 import LinkedInIcon from '../icons/LinkedInIcon';
 import InstagramIcon from '../icons/InstagramIcon';
+import BehanceIcon from '../icons/BehanceIcon';
 import styles from './Terminal.module.css'; // Import CSS module
 
 
@@ -101,6 +102,9 @@ export default function Terminal() {
             </a>
             <a href="https://instagram.com/imthilinax" target="_blank" rel="noopener noreferrer" className={styles.socialLink} aria-label="Instagram">
               <InstagramIcon className={styles.icon} />
+            </a>
+            <a href="https://www.behance.net/Nemetlan" target="_blank" rel="noopener noreferrer" className={styles.socialLink} aria-label="Behance">
+              <BehanceIcon className={styles.icon} />
             </a>
           </div>
         </div>
