@@ -1,7 +1,7 @@
-import Terminal from '../../public/components/Terminal';
 import Head from 'next/head';
 import styles from './page.module.css'; // Import page-specific module
 import Link from 'next/link';
+import WorksBar from '../../../public/components/WorksBar';
 
 
 // Note: I am not using '../components/Terminal' styles directly here,
@@ -17,20 +17,7 @@ export default function HomePage() {
       
       {/* Apply the container styles from the new module */}
       <div className={styles.pageContainer}>
-        <Terminal />
-
-        <div className={styles.buttonContainer}>
-          
-            <Link href="/works">
-              <button className={styles.button}>Works</button>
-            </Link>
-
-            <Link href="/experience">
-              <button className={styles.button}>Experience</button>
-            </Link>
-            {/* <Link href="/projects"><button className={styles.button}>Contact</button></Link> */}
-          
-        </div>
+        <WorksBar />
 
       </div>
     </>

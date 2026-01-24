@@ -31,7 +31,7 @@ export default function RootLayout({ children }) {
         The `variable` names defined above are used in `globals.css`
       */}
       <body className={`${inter.variable} ${firaCode.variable} font-sans`}>
-        <Link href='https://github.com/Nemetlan'><p className={`${mc_Samthing.className} ${styles.Username}`}>#Nemetlan</p></Link>
+        <Link href='/'><p className={`${mc_Samthing.className} ${styles.Username}`}>#Nemetlan</p></Link>
         {children}
       </body>
     </html>
