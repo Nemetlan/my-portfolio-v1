@@ -40,14 +40,14 @@ const work = (Title, Description, type, since, key) => {
 const Experiences = [
   {
     title: "Content Creator at Siri Thesarana Development Foundation",
-    type: 'Editor , Photographer, Videographer, Digital Manager',
-    description: "This project was created for PULZ 25 Codeflow, an inter-school web development competition organized by the Ananda College ICT Society.",
+    type: 'Editor , Photographer, Videographer',
+    description: "Creating multimedia content including video editing, photography, and videography for Siri Thesarana Development Foundation's projects and initiatives.",
     since: "Jan 2024 - Present"
   },   
   {
     title: "Graphic Designer as a Freelancer",
     type: 'Graphic Designer',
-    description: "This project was created for PULZ 25 Codeflow, an inter-school web development competition organized by the Ananda College ICT Society.",
+    description: "Providing freelance graphic design services including branding, posters, social media graphics, and visual content creation for various clients.",
     since: "Jan 2023 - Present"
   
   },
