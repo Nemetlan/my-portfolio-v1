@@ -1,48 +1,7 @@
-.terminalList{
-    display: grid;
-    grid-template-columns: 1fr 1fr  ;
-}
-
-
-.SeeMoreContainer {
-    width: 100%;
-    max-width: 30rem;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: #22c55e; /* Equivalent to bg-slate-900 */
-    border-radius: 0.75rem; /* Equivalent to rounded-xl */
-    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25); /* Equivalent to shadow-2xl */
-    border: 1px solid #334155; /* Equivalent to border border-slate-700 */
-    color: white;
-    transition: transform 0.2s ease-out, box-shadow 0.2s ease-out;
-    transform-style: preserve-3d;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    cursor: pointer;
-    opacity: 0;
-    transform: translateY(30px);
-    animation: slideInUp 1s ease-out forwards;
-}
-
-.SeeMoreContainer:hover {
-    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.3);
-    scale: 0.81;
-    transform-origin: center;
-}
-
-.SeeMoreText {
-    font-size: 1.5rem;
-    font-weight: 600;
-    padding: 2rem;
-}
-
-
 
 .terminalContainer {
     width: 100%;
-    max-width: 30rem; /* Equivalent to max-w-2xl */
+    max-width: 65rem; /* Equivalent to max-w-2xl */
     margin-left: auto;
     margin-right: auto;
     background-color: #0f172a; /* Equivalent to bg-slate-900 */
@@ -164,8 +123,6 @@
     margin-left: 2rem; /* Equivalent to ml-2 */
     
 }
-
-
 
 .name {
     font-size: 1.875rem; /* Equivalent to text-3xl */

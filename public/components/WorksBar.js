@@ -1,10 +1,5 @@
 "use client";
 
-import GitHubIcon from '../icons/GitHubIcon';
-import LinkedInIcon from '../icons/LinkedInIcon';
-import InstagramIcon from '../icons/InstagramIcon';
-import BehanceIcon from '../icons/BehanceIcon';
-
 import styles from './WorksBar.module.css'; // Import CSS module
 import Link from 'next/link';
 
