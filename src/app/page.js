@@ -2,7 +2,7 @@ import Terminal from '../../public/components/Terminal';
 import Head from 'next/head';
 import styles from './page.module.css'; // Import page-specific module
 import Link from 'next/link';
-
+import LinktreeIcon from '../../public/icons/LinktreeIcon';
 
 // Note: I am not using '../components/Terminal' styles directly here,
 // as the wrapper styles are simple layout rules.
@@ -28,6 +28,13 @@ export default function HomePage() {
             <Link href="/experience">
               <button className={styles.button}>Experience</button>
             </Link>
+
+            <Link href="https://linktr.ee/Nemetlan">
+              <button className={styles.button}>
+                <LinktreeIcon className={styles.linktreeIcon} />
+                Linktree
+              </button>
+            </Link>
             {/* <Link href="/projects"><button className={styles.button}>Contact</button></Link> */}
           
         </div>
@@ -36,3 +43,4 @@ export default function HomePage() {
     </>
   );
 }
+

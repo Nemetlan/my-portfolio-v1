@@ -66,3 +66,7 @@
     transition-property: transform;
     transition-duration: 250ms;
 }
+
+.linktreeIcon{
+    margin-right: 3px;
+}
