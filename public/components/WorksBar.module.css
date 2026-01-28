@@ -4,9 +4,38 @@
 }
 
 
+@media (max-width:1300px) {
+    .terminalList {
+        grid-template-columns: 1fr;
+        margin-top: 4rem;
+
+    }
+    .terminalContainer{
+        margin-top: -2rem;
+        
+    }
+    .SeeMoreContainer{
+        margin-top: -1rem;
+    }
+}
+
+@media (min-width:1800px) {
+    .terminalContainer,
+    .SeeMoreContainer {
+        scale: 0.8;
+    }
+
+    .terminalContainer:hover,
+    .SeeMoreContainer:hover {
+        scale: 0.82;
+        transform-origin: center;
+    }
+
+}
+
 .SeeMoreContainer {
     width: 100%;
-    max-width: 30rem;
+    max-width: 50%vh; /* Equivalent to max-w-2xl */
     margin-left: auto;
     margin-right: auto;
     background-color: #22c55e; /* Equivalent to bg-slate-900 */
@@ -42,7 +71,7 @@
 
 .terminalContainer {
     width: 100%;
-    max-width: 30rem; /* Equivalent to max-w-2xl */
+    max-width: 50vh; /* Equivalent to max-w-2xl */
     margin-left: auto;
     margin-right: auto;
     background-color: #0f172a; /* Equivalent to bg-slate-900 */
@@ -176,7 +205,23 @@
 .title {
     color: #94a3b8; /* Equivalent to text-slate-400 */
     margin-top: 0.25rem; /* Equivalent to mt-1 */
+
+    display: -webkit-box;
+    -webkit-line-clamp: 2; /* Change to your desired number of lines */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
+
+
+.workDescription {
+    display: -webkit-box;
+    -webkit-line-clamp: 3; /* Change to your desired number of lines */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
 
 /* socials output */
 .socialsLinks {

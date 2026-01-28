@@ -1,7 +1,16 @@
+.terminalList {
+    display: flex;
+    flex-direction: column;
+    gap: 0; 
+    margin-top: 2rem; /* Equivalent to mt-8 */
+    margin-bottom: 2rem; /* Equivalent to mb-8 */
+    padding-left: 1rem; /* Equivalent to px-4 */
+    padding-right: 1rem; /* Equivalent to px-4 */
+}
 
 .terminalContainer {
     width: 100%;
-    max-width: 65rem; /* Equivalent to max-w-2xl */
+    max-width: 100vh; /* Equivalent to max-w-2xl */
     margin-left: auto;
     margin-right: auto;
     background-color: #0f172a; /* Equivalent to bg-slate-900 */
@@ -62,7 +71,8 @@
 
 .windowControls {
     display: flex;
-    gap: 0.5rem; /* Equivalent to space-x-2 */
+    gap: 0.5rem;
+     /* Equivalent to space-x-2 */
 }
 
 .controlDot {
@@ -111,7 +121,14 @@
 .prompt {
     color: #4ade80; /* Equivalent to text-green-400 */
     font-size: 1.5rem;
+
+    display: -webkit-box;
+    -webkit-line-clamp: 2; /* Change to your desired number of lines */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
+
 
 /* whoami output */
 
@@ -135,6 +152,13 @@
     margin-top: 0.25rem; /* Equivalent to mt-1 */
 }
 
+.workDescription {
+    display: -webkit-box;
+    -webkit-line-clamp: 3; /* Change to your desired number of lines */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
 /* socials output */
 .socialsLinks {
     margin-top: 0.5rem; /* Equivalent to mt-2 */

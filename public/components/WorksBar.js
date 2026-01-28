@@ -32,7 +32,7 @@ const work = (Title, Description, link, type, key) => {
                         <div className={styles.DescriptionContainer}>
                             <p className={styles.workDescription}>{Description}</p>
                             <Link href={link} target="_blank" rel="noopener noreferrer" className={styles.projectLink}>
-                                <button className={styles.button}>Let's see</button>
+                                <button className={styles.button}>Let&apos;s see</button>
                             </Link>
                         </div>
                     </div>

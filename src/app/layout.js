@@ -1,7 +1,7 @@
 // app/layout.js
 import { Inter, Fira_Code } from 'next/font/google';
 import './globals.css'; // Imports the CSS file created below
-import styles from './page.module.css'
+import styles from './layout.module.css'
 import { mc_Samthing } from '../../public/fonts/fonts';
 import Link from 'next/link';
 
