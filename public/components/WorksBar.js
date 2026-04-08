@@ -51,11 +51,11 @@ const worksList = [
     link: "https://github.com/Nemetlan/Mali-Hue-Website-PULZ-25"
   },
   {
-    title: "Graphic Designs",
-    type: 'graphic design',
-    description: "View my Behance portfolio to see selected visual design, branding, and digital projects that reflect my style and craft.",
-    link: "https://www.behance.net/Nemetlan"
-  },
+  title: "InkVault",
+  type: "web application",
+  description: "A high-performance, minimalist WhatsApp chat visualizer that transforms raw exports into a searchable, Geist-inspired interface with a focus on local privacy.",
+  link: "https://inkvault.drafnet.eu.org/"
+},
     {
     title: "My Portfolio Website",
     type: 'web development',
